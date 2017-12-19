@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56C5850B1FE9819F00889917 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04381D9D8DE2003E7610 /* GooglePlaces */; };
+		56C5850D1FE981FC00889917 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C5850C1FE981FC00889917 /* GoogleMaps.framework */; };
+		56C5850F1FE9822900889917 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C5850E1FE9822900889917 /* Accelerate.framework */; };
+		56C585111FE9823000889917 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C585101FE9823000889917 /* CoreData.framework */; };
+		56C585131FE9824800889917 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C585121FE9824800889917 /* CoreTelephony.framework */; };
+		56C585151FE9825000889917 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C585141FE9825000889917 /* CoreText.framework */; };
+		56C585171FE9827400889917 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C585161FE9827400889917 /* SystemConfiguration.framework */; };
+		56C585191FE982ED00889917 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C585181FE982ED00889917 /* GLKit.framework */; };
+		56C5851A1FE982F500889917 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C585091FE980E700889917 /* libc++.tbd */; };
+		56C5851C1FE982FE00889917 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C5851B1FE982FE00889917 /* libz.tbd */; };
+		56C5851E1FE9830900889917 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C5851D1FE9830900889917 /* OpenGLES.framework */; };
+		56C585201FE9851400889917 /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C5851F1FE9851400889917 /* GMSAutocompleteBoundsMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C585221FE9895000889917 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C585211FE9895000889917 /* Security.framework */; };
 		B9234B4F1D9E2DCC001EE0B5 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */; };
 		B9EE04321D9D8D2E003E7610 /* GooglePlaces.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04301D9D8D2E003E7610 /* GooglePlaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9EE04391D9D8DE2003E7610 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04381D9D8DE2003E7610 /* GooglePlaces */; };
 		B9EE044B1D9D8DF8003E7610 /* GMSAddressComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE043A1D9D8DF8003E7610 /* GMSAddressComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE044C1D9D8DF8003E7610 /* GMSAutocompleteFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE043B1D9D8DF8003E7610 /* GMSAutocompleteFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE044D1D9D8DF8003E7610 /* GMSAutocompleteFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE043C1D9D8DF8003E7610 /* GMSAutocompleteFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +48,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56C585091FE980E700889917 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		56C5850C1FE981FC00889917 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
+		56C5850E1FE9822900889917 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		56C585101FE9823000889917 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		56C585121FE9824800889917 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		56C585141FE9825000889917 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		56C585161FE9827400889917 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		56C585181FE982ED00889917 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		56C5851B1FE982FE00889917 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		56C5851D1FE9830900889917 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		56C5851F1FE9851400889917 /* GMSAutocompleteBoundsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteBoundsMode.h; sourceTree = "<group>"; };
+		56C585211FE9895000889917 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
 		B9EE042D1D9D8D2E003E7610 /* GooglePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE04301D9D8D2E003E7610 /* GooglePlaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooglePlaces.h; sourceTree = "<group>"; };
@@ -71,13 +95,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C585221FE9895000889917 /* Security.framework in Frameworks */,
+				56C5851E1FE9830900889917 /* OpenGLES.framework in Frameworks */,
+				56C5851C1FE982FE00889917 /* libz.tbd in Frameworks */,
+				56C5851A1FE982F500889917 /* libc++.tbd in Frameworks */,
+				56C585191FE982ED00889917 /* GLKit.framework in Frameworks */,
+				56C585171FE9827400889917 /* SystemConfiguration.framework in Frameworks */,
+				56C585151FE9825000889917 /* CoreText.framework in Frameworks */,
+				56C585131FE9824800889917 /* CoreTelephony.framework in Frameworks */,
+				56C585111FE9823000889917 /* CoreData.framework in Frameworks */,
+				56C5850F1FE9822900889917 /* Accelerate.framework in Frameworks */,
+				56C5850D1FE981FC00889917 /* GoogleMaps.framework in Frameworks */,
+				56C5850B1FE9819F00889917 /* GooglePlaces in Frameworks */,
+				B9EE045E1D9D8E20003E7610 /* GoogleMapsBase.framework in Frameworks */,
 				B9EE04681D9D8E6B003E7610 /* QuartzCore.framework in Frameworks */,
 				B9EE04661D9D8E4D003E7610 /* UIKit.framework in Frameworks */,
 				B9EE04641D9D8E47003E7610 /* CoreGraphics.framework in Frameworks */,
 				B9EE04601D9D8E2E003E7610 /* Foundation.framework in Frameworks */,
 				B9EE04621D9D8E39003E7610 /* CoreLocation.framework in Frameworks */,
-				B9EE045E1D9D8E20003E7610 /* GoogleMapsBase.framework in Frameworks */,
-				B9EE04391D9D8DE2003E7610 /* GooglePlaces in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,9 +139,10 @@
 		B9EE042F1D9D8D2E003E7610 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */,
 				B9EE04381D9D8DE2003E7610 /* GooglePlaces */,
+				B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */,
 				B9EE043A1D9D8DF8003E7610 /* GMSAddressComponent.h */,
+				56C5851F1FE9851400889917 /* GMSAutocompleteBoundsMode.h */,
 				B9EE043B1D9D8DF8003E7610 /* GMSAutocompleteFetcher.h */,
 				B9EE043C1D9D8DF8003E7610 /* GMSAutocompleteFilter.h */,
 				B9EE043D1D9D8DF8003E7610 /* GMSAutocompleteMatchFragment.h */,
@@ -132,6 +168,17 @@
 		B9EE045C1D9D8E20003E7610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56C585211FE9895000889917 /* Security.framework */,
+				56C5851D1FE9830900889917 /* OpenGLES.framework */,
+				56C5851B1FE982FE00889917 /* libz.tbd */,
+				56C585181FE982ED00889917 /* GLKit.framework */,
+				56C585161FE9827400889917 /* SystemConfiguration.framework */,
+				56C585141FE9825000889917 /* CoreText.framework */,
+				56C585121FE9824800889917 /* CoreTelephony.framework */,
+				56C585101FE9823000889917 /* CoreData.framework */,
+				56C5850E1FE9822900889917 /* Accelerate.framework */,
+				56C5850C1FE981FC00889917 /* GoogleMaps.framework */,
+				56C585091FE980E700889917 /* libc++.tbd */,
 				B9EE04671D9D8E6B003E7610 /* QuartzCore.framework */,
 				B9EE04651D9D8E4D003E7610 /* UIKit.framework */,
 				B9EE04631D9D8E47003E7610 /* CoreGraphics.framework */,
@@ -165,6 +212,7 @@
 				B9EE044E1D9D8DF8003E7610 /* GMSAutocompleteMatchFragment.h in Headers */,
 				B9EE044B1D9D8DF8003E7610 /* GMSAddressComponent.h in Headers */,
 				B9EE04521D9D8DF8003E7610 /* GMSAutocompleteViewController.h in Headers */,
+				56C585201FE9851400889917 /* GMSAutocompleteBoundsMode.h in Headers */,
 				B9EE044F1D9D8DF8003E7610 /* GMSAutocompletePrediction.h in Headers */,
 				B9EE04581D9D8DF8003E7610 /* GMSPlacesClient.h in Headers */,
 			);
@@ -327,9 +375,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -372,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,7 +444,7 @@
 				);
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GooglePlaces/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GooglePlaces;
@@ -419,7 +467,7 @@
 				);
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GooglePlaces/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GooglePlaces;
